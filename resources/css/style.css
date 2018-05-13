@@ -2,9 +2,48 @@ body{
   text-align: center;
   font-family: Helvetica;
 }
+
+h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 14px;
+}
+
+/** css for web head**/
 .webhead{
   background-image: url("../images/the-flatiron-building.png");
 }
+h1{
+  color: White;
+  font-size: 70px;
+  font-weight: bold;
+}
+.webhead a{
+  color: White;
+  font-size: 18px;
+}
+
+/** css for Process**/
+.process{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/** css for Designed in New York**/
 .designed{
   background-image: url("../images/the-flatiron-building.png");
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+/** css for Footer**/
+.footer, .footer a{
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
 }
